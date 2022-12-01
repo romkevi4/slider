@@ -5,6 +5,7 @@ const container = document.querySelector('.container');
 const mainSlide = document.querySelector('.main-slide');
 const slideCount = mainSlide.querySelectorAll('.main-slide__image').length;
 const letter = sidebar.querySelectorAll('.sidebar__title-jumping');
+const icons = document.querySelectorAll('.controls__img-arrow');
 
 export {
     upBtn,
@@ -13,5 +14,6 @@ export {
     container,
     mainSlide,
     slideCount,
-    letter
+    letter,
+    icons
 }

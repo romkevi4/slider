@@ -5,8 +5,23 @@ import {
     container,
     mainSlide,
     slideCount,
-    letter
+    letter,
+    icons
 } from '../utils/constants.js';
+
+import './index.css';
+
+import arrowDown from '../images/arrow-down-icon.svg';
+import arrowUp from '../images/arrow-up-icon.svg';
+
+
+const arrows = [
+    { name: 'Arrow Down', image: arrowDown },
+    { name: 'Arrow Up', image: arrowUp }
+];
+
+icons[0].src = arrows[0].image;
+icons[1].src = arrows[1].image;
 
 letter.forEach(elem => {
     elem.addEventListener('mouseenter', () => elem.classList.add('rubberBand', 'animated'));
