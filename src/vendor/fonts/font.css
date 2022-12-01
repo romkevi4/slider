@@ -1,0 +1,17 @@
+/* Maven Pro */
+@font-face {
+  font-family: 'Maven Pro';
+  font-style:  normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("MavenPro-SemiBold.ttf") format("truetype");
+}
+
+/* Dancing Script */
+@font-face {
+  font-family: 'Dancing Script';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("DancingScript-Regular.ttf") format("truetype");
+}

@@ -1,0 +1,26 @@
+/* Controls */
+.controls__btn {
+  width: 40px;
+  height: 50px;
+  padding: 9px;
+
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.controls__btn:hover {
+  color: #222;
+}
+
+.controls__btn:focus {
+  outline: none;
+}
+
+.container .controls .controls__btn {
+  position: absolute;
+  left: 35%;
+  top: 50%;
+  z-index: 1;
+}

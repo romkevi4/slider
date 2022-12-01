@@ -1,0 +1,12 @@
+/* Controls */
+.controls__img-arrow {
+  width: 100%;
+  height: 100%;
+
+  opacity: .5;
+  transition: opacity 180ms linear 2ms;
+}
+
+.controls__img-arrow:hover {
+  opacity: 1;
+}

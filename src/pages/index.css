@@ -1,0 +1,35 @@
+/* Style normalizer */
+@import url(../vendor/normalize/normalize.css);
+
+/* Fonts */
+@import url(../vendor/fonts/font.css);
+
+/* Root */
+@import url(../blocks/root/root.css);
+
+/* Container */
+@import url(../blocks/container/container.css);
+
+/* Sidebar */
+@import url(../blocks/sidebar/sidebar.css);
+@import url(../blocks/sidebar/__box/sidebar__box.css);
+@import url(../blocks/sidebar/__box/_element/sidebar__box_element_one.css);
+@import url(../blocks/sidebar/__box/_element/sidebar__box_element_two.css);
+@import url(../blocks/sidebar/__box/_element/sidebar__box_element_three.css);
+@import url(../blocks/sidebar/__box/_element/sidebar__box_element_four.css);
+@import url(../blocks/sidebar/__box/_element/sidebar__box_element_five.css);
+@import url(../blocks/sidebar/__box/_element/sidebar__box_element_six.css);
+@import url(../blocks/sidebar/__title/sidebar__title.css);
+@import url(../blocks/sidebar/__subtitle/sidebar__subtitle.css);
+
+/* Main-slide */
+@import url(../blocks/main-slide/main-slide.css);
+@import url(../blocks/main-slide/__box/main-slide__box.css);
+@import url(../blocks/main-slide/__image/main-slide__image.css);
+
+/* Controls */
+@import url(../blocks/controls/controls.css);
+@import url(../blocks/controls/__btn/controls__btn.css);
+@import url(../blocks/controls/__btn/controls__btn_down.css);
+@import url(../blocks/controls/__btn/controls__btn_up.css);
+@import url(../blocks/controls/__img-arrow/controls__img-arrow.css);
