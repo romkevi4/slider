@@ -1,0 +1,12 @@
+/* Root */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.root {
+  height: 100vh;
+
+  font-family: 'Maven Pro', 'Dancing Script', sans-serif;
+}

@@ -1,0 +1,6 @@
+/* Controls */
+.container .controls .controls__btn_up {
+  transform: translateY(-100%);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
