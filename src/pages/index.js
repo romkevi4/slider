@@ -4,8 +4,21 @@ import {
     sidebar,
     container,
     mainSlide,
-    slideCount
+    slideCount,
+    letter
 } from '../utils/constants.js';
+
+console.log(letter);
+
+letter.forEach(elem => {
+    elem.addEventListener('mouseenter', () => {
+       elem.classList.add('rubberBand', 'animated');
+    });
+
+    elem.addEventListener('mouseleave', () => {
+        setTimeout(() => elem.classList.remove('rubberBand', 'animated'), 800);
+    });
+});
 
 let activeSlideIndex = 0;
 
